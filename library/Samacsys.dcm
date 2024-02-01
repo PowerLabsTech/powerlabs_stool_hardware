@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BC817-25-QVL
+D Bipolar (BJT) Transistor NPN 45 V 500 mA 100MHz 250 mW Surface Mount TO-236AB
+K
+F https://assets.nexperia.com/documents/data-sheet/BC817-Q_SER.pdf
+$ENDCMP
+#
+$CMP TP4056-42-ESOP8
+D PMIC - Battery Management ESOP-8 RoHS
+K
+F https://datasheet.lcsc.com/szlcsc/1906261508_Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.pdf
+$ENDCMP
+#End Doc Library
