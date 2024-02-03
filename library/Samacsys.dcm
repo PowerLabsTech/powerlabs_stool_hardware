@@ -11,4 +11,10 @@ D PMIC - Battery Management ESOP-8 RoHS
 K
 F https://datasheet.lcsc.com/szlcsc/1906261508_Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.pdf
 $ENDCMP
+#
+$CMP TYPE-C-31-M-17
+D USB Connectors 6 Receptacle 1 RoHS
+K
+F https://datasheet.lcsc.com/szlcsc/1903211732_Korean-Hroparts-Elec-TYPE-C-31-M-17_C283540.pdf
+$ENDCMP
 #End Doc Library

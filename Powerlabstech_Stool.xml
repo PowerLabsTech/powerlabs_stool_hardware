@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/matthew_busoye/Documents/KiCad/projects/Powerlabstech_Stool/Powerlabstech_Stool.kicad_sch</source>
-    <date>Wednesday, January 31, 2024 at 10:15:11 AM</date>
+    <date>Saturday, February 03, 2024 at 01:04:52 AM</date>
     <tool>Eeschema 7.0.10</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -26,8 +26,11 @@
   <components>
     <comp ref="BT1">
       <value>Battery</value>
-      <footprint>Connector_Molex:Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical</footprint>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <libsource lib="Device" part="Battery" description="Multiple-cell battery"/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="LCSC_Part_Number" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
       <property name="ki_description" value="Multiple-cell battery"/>
@@ -36,17 +39,18 @@
       <tstamps>99500bff-6fd8-4aa8-96af-a8616504eab1</tstamps>
     </comp>
     <comp ref="C1">
-      <value>120uF</value>
+      <value>120uF/450v</value>
       <footprint>Capacitor_THT:CP_Radial_D18.0mm_P7.50mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2302101109_Yunxing-EG22WM121M36OTMO_C2841497.pdf</datasheet>
       <fields>
-        <field name="LCSC_Part_Number">C7499970</field>
-        <field name="Manufacturer_Name">HRK</field>
-        <field name="Manufacturer_Part_Number">CD110127M2G1830VFL</field>
+        <field name="LCSC_Part_Number">C2841497</field>
+        <field name="Manufacturer_Name">Yunxing</field>
+        <field name="Manufacturer_Part_Number">EG22WM121M36OTMO</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Manufacturer_Part_Number" value="CD110127M2G1830VFL"/>
-      <property name="Manufacturer_Name" value="HRK"/>
-      <property name="LCSC_Part_Number" value="C7499970"/>
+      <property name="Manufacturer_Part_Number" value="EG22WM121M36OTMO"/>
+      <property name="Manufacturer_Name" value="Yunxing"/>
+      <property name="LCSC_Part_Number" value="C2841497"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -72,7 +76,7 @@
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>269645cb-5ed7-4858-bb10-63cb2c46af08</tstamps>
+      <tstamps>e84f4fed-29a9-4763-8689-0fd3dde70424</tstamps>
     </comp>
     <comp ref="C3">
       <value>100nF</value>
@@ -92,27 +96,27 @@
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>52935a95-a52f-437b-ab44-a50508d604a1</tstamps>
+      <tstamps>ce1c545e-b0e2-4d96-a426-e8944be6fa44</tstamps>
     </comp>
     <comp ref="C4">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <value>470uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_ROQANG-RVT1A471M0607_C335982.pdf</datasheet>
       <fields>
-        <field name="LCSC_Part_Number">C14663</field>
-        <field name="Manufacturer_Name">YAGEO</field>
-        <field name="Manufacturer_Part_Number">CC0603KRX7R9BB104</field>
+        <field name="LCSC_Part_Number">C335982</field>
+        <field name="Manufacturer_Name">ROQANG</field>
+        <field name="Manufacturer_Part_Number">RVT1A471M0607</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Manufacturer_Part_Number" value="CC0603KRX7R9BB104"/>
-      <property name="Manufacturer_Name" value="YAGEO"/>
-      <property name="LCSC_Part_Number" value="C14663"/>
+      <property name="Manufacturer_Part_Number" value="RVT1A471M0607"/>
+      <property name="Manufacturer_Name" value="ROQANG"/>
+      <property name="LCSC_Part_Number" value="C335982"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>2b54bd29-f130-4728-a1e9-d372ac77c86c</tstamps>
+      <tstamps>ba1077cf-5cab-492e-8d50-335b2f3a6697</tstamps>
     </comp>
     <comp ref="C5">
       <value>100nF</value>
@@ -132,7 +136,7 @@
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>3a98d34f-b12f-46b7-8054-5eb03875d161</tstamps>
+      <tstamps>2b54bd29-f130-4728-a1e9-d372ac77c86c</tstamps>
     </comp>
     <comp ref="C6">
       <value>100nF</value>
@@ -152,7 +156,7 @@
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e84f4fed-29a9-4763-8689-0fd3dde70424</tstamps>
+      <tstamps>3a98d34f-b12f-46b7-8054-5eb03875d161</tstamps>
     </comp>
     <comp ref="C7">
       <value>470uF</value>
@@ -172,7 +176,7 @@
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e96acc69-7530-40f0-8888-1b545cf89e52</tstamps>
+      <tstamps>1e18e11a-ac5e-46ee-9633-5dba6e13e486</tstamps>
     </comp>
     <comp ref="C8">
       <value>470uF</value>
@@ -192,27 +196,27 @@
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>4c879b73-c3eb-41f0-9631-8ea01f258cd4</tstamps>
+      <tstamps>31fae1cd-4f52-4daa-b859-e2ea37dbc83e</tstamps>
     </comp>
     <comp ref="C9">
-      <value>470uF</value>
-      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_ROQANG-RVT1A471M0607_C335982.pdf</datasheet>
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
       <fields>
-        <field name="LCSC_Part_Number">C335982</field>
-        <field name="Manufacturer_Name">ROQANG</field>
-        <field name="Manufacturer_Part_Number">RVT1A471M0607</field>
+        <field name="LCSC_Part_Number">C14663</field>
+        <field name="Manufacturer_Name">YAGEO</field>
+        <field name="Manufacturer_Part_Number">CC0603KRX7R9BB104</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Manufacturer_Part_Number" value="RVT1A471M0607"/>
-      <property name="Manufacturer_Name" value="ROQANG"/>
-      <property name="LCSC_Part_Number" value="C335982"/>
+      <property name="Manufacturer_Part_Number" value="CC0603KRX7R9BB104"/>
+      <property name="Manufacturer_Name" value="YAGEO"/>
+      <property name="LCSC_Part_Number" value="C14663"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>1e18e11a-ac5e-46ee-9633-5dba6e13e486</tstamps>
+      <tstamps>52935a95-a52f-437b-ab44-a50508d604a1</tstamps>
     </comp>
     <comp ref="C10">
       <value>470uF</value>
@@ -232,9 +236,29 @@
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>31fae1cd-4f52-4daa-b859-e2ea37dbc83e</tstamps>
+      <tstamps>e96acc69-7530-40f0-8888-1b545cf89e52</tstamps>
     </comp>
     <comp ref="C11">
+      <value>470uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_ROQANG-RVT1A471M0607_C335982.pdf</datasheet>
+      <fields>
+        <field name="LCSC_Part_Number">C335982</field>
+        <field name="Manufacturer_Name">ROQANG</field>
+        <field name="Manufacturer_Part_Number">RVT1A471M0607</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer_Part_Number" value="RVT1A471M0607"/>
+      <property name="Manufacturer_Name" value="ROQANG"/>
+      <property name="LCSC_Part_Number" value="C335982"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c879b73-c3eb-41f0-9631-8ea01f258cd4</tstamps>
+    </comp>
+    <comp ref="C12">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
@@ -254,25 +278,45 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9b2e860a-f41c-4a32-a9ce-f67aa2ceb1d8</tstamps>
     </comp>
-    <comp ref="C12">
-      <value>470uF</value>
-      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_ROQANG-RVT1A471M0607_C335982.pdf</datasheet>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
       <fields>
-        <field name="LCSC_Part_Number">C335982</field>
-        <field name="Manufacturer_Name">ROQANG</field>
-        <field name="Manufacturer_Part_Number">RVT1A471M0607</field>
+        <field name="LCSC_Part_Number">C14663</field>
+        <field name="Manufacturer_Name">YAGEO</field>
+        <field name="Manufacturer_Part_Number">CC0603KRX7R9BB104</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Manufacturer_Part_Number" value="RVT1A471M0607"/>
-      <property name="Manufacturer_Name" value="ROQANG"/>
-      <property name="LCSC_Part_Number" value="C335982"/>
+      <property name="Manufacturer_Part_Number" value="CC0603KRX7R9BB104"/>
+      <property name="Manufacturer_Name" value="YAGEO"/>
+      <property name="LCSC_Part_Number" value="C14663"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>ba1077cf-5cab-492e-8d50-335b2f3a6697</tstamps>
+      <tstamps>269645cb-5ed7-4858-bb10-63cb2c46af08</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="LCSC_Part_Number">C14663</field>
+        <field name="Manufacturer_Name">YAGEO</field>
+        <field name="Manufacturer_Part_Number">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer_Part_Number" value="CC0603KRX7R9BB104"/>
+      <property name="Manufacturer_Name" value="YAGEO"/>
+      <property name="LCSC_Part_Number" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2839ae96-0a12-41db-99de-eb5e14c118e5</tstamps>
     </comp>
     <comp ref="D1">
       <value>D</value>
@@ -299,26 +343,6 @@
       <tstamps>202ade3f-ef94-4b6c-b47f-32a474ded40b</tstamps>
     </comp>
     <comp ref="D2">
-      <value>B540C</value>
-      <footprint>Diode_SMD:D_SMC</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2307271405_FUXINSEMI-B540C_C6807783.pdf</datasheet>
-      <fields>
-        <field name="LCSC_Part_Number">C6807783</field>
-        <field name="Manufacturer_Name">FUXINSEMI</field>
-        <field name="Manufacturer_Part_Number">B540C</field>
-      </fields>
-      <libsource lib="Diode" part="MBR745" description="45V 7.5A Schottky Barrier Rectifier Diode, TO-220"/>
-      <property name="Manufacturer_Part_Number" value="B540C"/>
-      <property name="Manufacturer_Name" value="FUXINSEMI"/>
-      <property name="LCSC_Part_Number" value="C6807783"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
-      <property name="ki_description" value="45V 7.5A Schottky Barrier Rectifier Diode, TO-220"/>
-      <property name="ki_keywords" value="diode Schottky"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>9df211fd-3bde-4976-b94e-9bf33ee3f731</tstamps>
-    </comp>
-    <comp ref="D3">
       <value>D</value>
       <footprint>Diode_SMD:D_SMA</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2208051800_JUXING-S2MF_C5125722.pdf</datasheet>
@@ -342,7 +366,41 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>8dd411b4-2067-4279-aaf3-3ff70c05e16c</tstamps>
     </comp>
+    <comp ref="D3">
+      <value>LED_ARGB</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-4-5.08_1x04_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="LED_ARGB" description="RGB LED, anode/red/green/blue"/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="LCSC_Part_Number" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
+      <property name="ki_description" value="RGB LED, anode/red/green/blue"/>
+      <property name="ki_keywords" value="LED RGB diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fbe71aae-a728-4233-bf80-d71d0e02ccfa</tstamps>
+    </comp>
     <comp ref="D4">
+      <value>B540C</value>
+      <footprint>Diode_SMD:D_SMC</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2307271405_FUXINSEMI-B540C_C6807783.pdf</datasheet>
+      <fields>
+        <field name="LCSC_Part_Number">C6807783</field>
+        <field name="Manufacturer_Name">FUXINSEMI</field>
+        <field name="Manufacturer_Part_Number">B540C</field>
+      </fields>
+      <libsource lib="Diode" part="MBR745" description="45V 7.5A Schottky Barrier Rectifier Diode, TO-220"/>
+      <property name="Manufacturer_Part_Number" value="B540C"/>
+      <property name="Manufacturer_Name" value="FUXINSEMI"/>
+      <property name="LCSC_Part_Number" value="C6807783"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
+      <property name="ki_description" value="45V 7.5A Schottky Barrier Rectifier Diode, TO-220"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9df211fd-3bde-4976-b94e-9bf33ee3f731</tstamps>
+    </comp>
+    <comp ref="D5">
       <value>B540C</value>
       <footprint>Diode_SMD:D_SMC</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2307271405_FUXINSEMI-B540C_C6807783.pdf</datasheet>
@@ -362,24 +420,57 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7f06528c-761f-4afa-8045-5c5c6d7e567e</tstamps>
     </comp>
-    <comp ref="D7">
-      <value>LED_ARGB</value>
-      <footprint>TerminalBlock:TerminalBlock_bornier-4_P5.08mm</footprint>
-      <libsource lib="Device" part="LED_ARGB" description="RGB LED, anode/red/green/blue"/>
-      <property name="Manufacturer_Part_Number" value=""/>
-      <property name="Manufacturer_Name" value=""/>
-      <property name="LCSC_Part_Number" value=""/>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
-      <property name="ki_description" value="RGB LED, anode/red/green/blue"/>
-      <property name="ki_keywords" value="LED RGB diode"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>fbe71aae-a728-4233-bf80-d71d0e02ccfa</tstamps>
+      <tstamps>e71cb89a-17dd-4aac-8a51-3fea651e4cb7</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9c606d4-e953-40bc-bcdc-146d61fd44cc</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d0df61f-51f0-42e6-9d21-89de1292e846</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d923f21-fe73-4a13-9d26-e47c9fb19b39</tstamps>
     </comp>
     <comp ref="J1">
       <value>Screw_Terminal_01x02</value>
-      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
       <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="LCSC_Part_Number" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
       <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -410,17 +501,6 @@
       <tstamps>e14f8f73-b632-4d65-88e2-e2df5515bbc2</tstamps>
     </comp>
     <comp ref="J4">
-      <value>Screw_Terminal_01x02</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
-      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="screw terminal"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>e95fe9e3-8ae0-4b7e-9239-50d723566685</tstamps>
-    </comp>
-    <comp ref="J5">
       <value>Conn_01x05_Socket</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
       <libsource lib="Connector" part="Conn_01x05_Socket" description="Generic connector, single row, 01x05, script generated"/>
@@ -431,7 +511,38 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>cc70116e-296a-4326-8acf-b56f5e12b274</tstamps>
     </comp>
-    <comp ref="K2">
+    <comp ref="J5">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e95fe9e3-8ae0-4b7e-9239-50d723566685</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>USB_C_Receptacle_PowerOnly_6P</value>
+      <footprint>Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2012031006_SHOU-HAN-TYPE-C-6P_C456012.pdf</datasheet>
+      <fields>
+        <field name="LCSC_Part_Number"> C456012</field>
+        <field name="Manufacturer_Name"> SHOU HAN</field>
+        <field name="Manufacturer_Part_Number">TYPE-C 6P</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle_PowerOnly_6P" description="USB Power-Only 6P Type-C Receptacle connector"/>
+      <property name="Manufacturer_Part_Number" value="TYPE-C 6P"/>
+      <property name="Manufacturer_Name" value=" SHOU HAN"/>
+      <property name="LCSC_Part_Number" value=" C456012"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
+      <property name="ki_description" value="USB Power-Only 6P Type-C Receptacle connector"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C power-only charging-only 6P 6C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21fdd6dd-4f1a-442c-94e5-b6ff9e1f80aa</tstamps>
+    </comp>
+    <comp ref="K1">
       <value>SANYOU_SRD_Form_C</value>
       <footprint>Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_Ningbo-Songle-Relay-SRD-5VDC-SL-B_C185799.pdf</datasheet>
@@ -469,7 +580,7 @@
       <property name="ki_description" value="Inductor"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e261b6f5-0297-4f89-8bea-097a626a22ae</tstamps>
+      <tstamps>e0ca24e0-4d7f-4262-9fd8-f370a1488afa</tstamps>
     </comp>
     <comp ref="L2">
       <value>47uH</value>
@@ -489,7 +600,7 @@
       <property name="ki_description" value="Inductor"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e0ca24e0-4d7f-4262-9fd8-f370a1488afa</tstamps>
+      <tstamps>e261b6f5-0297-4f89-8bea-097a626a22ae</tstamps>
     </comp>
     <comp ref="Q1">
       <value>Q_NMOS_GSD</value>
@@ -509,7 +620,7 @@
       <property name="ki_description" value="N-MOSFET transistor, gate/source/drain"/>
       <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>6b0e1895-f2b1-41b2-ad4a-18be7d30ed25</tstamps>
+      <tstamps>ecbf90a9-76db-49c5-b498-aad287c7b966</tstamps>
     </comp>
     <comp ref="Q2">
       <value>Q_NMOS_GSD</value>
@@ -529,29 +640,9 @@
       <property name="ki_description" value="N-MOSFET transistor, gate/source/drain"/>
       <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>ecbf90a9-76db-49c5-b498-aad287c7b966</tstamps>
+      <tstamps>35d5368a-5b68-400b-b114-b25da663ad37</tstamps>
     </comp>
-    <comp ref="Q4">
-      <value>Q_NMOS_GDS</value>
-      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2310121801_HL-20P03_C18164391.pdf</datasheet>
-      <fields>
-        <field name="LCSC_Part_Number">C18164391</field>
-        <field name="Manufacturer_Name">HL</field>
-        <field name="Manufacturer_Part_Number">20P03</field>
-      </fields>
-      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
-      <property name="Manufacturer_Part_Number" value="20P03"/>
-      <property name="Manufacturer_Name" value="HL"/>
-      <property name="LCSC_Part_Number" value="C18164391"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
-      <property name="ki_description" value="N-MOSFET transistor, gate/drain/source"/>
-      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>de32a936-612e-4f22-b249-6d46cfaf4f4a</tstamps>
-    </comp>
-    <comp ref="Q5">
+    <comp ref="Q3">
       <value>Q_NMOS_GSD</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2204261715_NATLINEAR-NP2302FVR-J-G_C2991117.pdf</datasheet>
@@ -571,7 +662,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>907703cc-53e4-4272-9f5a-2c8ca5b584c1</tstamps>
     </comp>
-    <comp ref="Q6">
+    <comp ref="Q4">
       <value>Q_NMOS_GSD</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2204261715_NATLINEAR-NP2302FVR-J-G_C2991117.pdf</datasheet>
@@ -591,7 +682,27 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>58899b45-58ed-457e-9c33-1de61cb99523</tstamps>
     </comp>
-    <comp ref="Q8">
+    <comp ref="Q5">
+      <value>Q_NMOS_GDS</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2310121801_HL-20P03_C18164391.pdf</datasheet>
+      <fields>
+        <field name="LCSC_Part_Number">C18164391</field>
+        <field name="Manufacturer_Name">HL</field>
+        <field name="Manufacturer_Part_Number">20P03</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Manufacturer_Part_Number" value="20P03"/>
+      <property name="Manufacturer_Name" value="HL"/>
+      <property name="LCSC_Part_Number" value="C18164391"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/drain/source"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de32a936-612e-4f22-b249-6d46cfaf4f4a</tstamps>
+    </comp>
+    <comp ref="Q6">
       <value>Q_NMOS_GSD</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2204261715_NATLINEAR-NP2302FVR-J-G_C2991117.pdf</datasheet>
@@ -609,7 +720,7 @@
       <property name="ki_description" value="N-MOSFET transistor, gate/source/drain"/>
       <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>35d5368a-5b68-400b-b114-b25da663ad37</tstamps>
+      <tstamps>6b0e1895-f2b1-41b2-ad4a-18be7d30ed25</tstamps>
     </comp>
     <comp ref="R1">
       <value>10K</value>
@@ -629,29 +740,9 @@
       <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>cb0b66fc-8326-4bcc-a9f4-64cb045660ea</tstamps>
+      <tstamps>6f54f09b-d7cf-445d-bc04-655f313e1932</tstamps>
     </comp>
     <comp ref="R2">
-      <value>680</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2308241947_FOJAN-FRC0603J681-TS_C2907195.pdf</datasheet>
-      <fields>
-        <field name="LCSC_Part_Number">C2907195</field>
-        <field name="Manufacturer_Name">FOJAN</field>
-        <field name="Manufacturer_Part_Number">FRC0603J681 TS</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Manufacturer_Part_Number" value="FRC0603J681 TS"/>
-      <property name="Manufacturer_Name" value="FOJAN"/>
-      <property name="LCSC_Part_Number" value="C2907195"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>c1d50412-adc4-40cc-9fef-533e530fd85d</tstamps>
-    </comp>
-    <comp ref="R3">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
@@ -671,267 +762,27 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e5b626b3-db6e-465d-bf3a-65c79b3eb75e</tstamps>
     </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC_Part_Number">C25804</field>
+        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer_Part_Number">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="0603WAF1002T5E"/>
+      <property name="Manufacturer_Name" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="LCSC_Part_Number" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb0b66fc-8326-4bcc-a9f4-64cb045660ea</tstamps>
+    </comp>
     <comp ref="R4">
-      <value>10K</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
-      <fields>
-        <field name="LCSC_Part_Number">C25804</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0603WAF1002T5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Manufacturer_Part_Number" value="0603WAF1002T5E"/>
-      <property name="Manufacturer_Name" value="UNI-ROYAL(Uniroyal Elec)"/>
-      <property name="LCSC_Part_Number" value="C25804"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>4847427f-24f1-4e19-a96c-1303d4c3130d</tstamps>
-    </comp>
-    <comp ref="R5">
-      <value>10K</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
-      <fields>
-        <field name="LCSC_Part_Number">C25804</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0603WAF1002T5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Manufacturer_Part_Number" value="0603WAF1002T5E"/>
-      <property name="Manufacturer_Name" value="UNI-ROYAL(Uniroyal Elec)"/>
-      <property name="LCSC_Part_Number" value="C25804"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>19c100bb-fd19-44fd-b935-99a64e6587aa</tstamps>
-    </comp>
-    <comp ref="R6">
-      <value>10K</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
-      <fields>
-        <field name="LCSC_Part_Number">C25804</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0603WAF1002T5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Manufacturer_Part_Number" value="0603WAF1002T5E"/>
-      <property name="Manufacturer_Name" value="UNI-ROYAL(Uniroyal Elec)"/>
-      <property name="LCSC_Part_Number" value="C25804"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>d945d771-a739-45be-b24c-eb868878afa2</tstamps>
-    </comp>
-    <comp ref="R7">
-      <value>10K</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
-      <fields>
-        <field name="LCSC_Part_Number">C25804</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0603WAF1002T5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Manufacturer_Part_Number" value="0603WAF1002T5E"/>
-      <property name="Manufacturer_Name" value="UNI-ROYAL(Uniroyal Elec)"/>
-      <property name="LCSC_Part_Number" value="C25804"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>68849f01-6642-4f45-8a31-7875e9cd3844</tstamps>
-    </comp>
-    <comp ref="R8">
-      <value>10K</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
-      <fields>
-        <field name="LCSC_Part_Number">C25804</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0603WAF1002T5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Manufacturer_Part_Number" value="0603WAF1002T5E"/>
-      <property name="Manufacturer_Name" value="UNI-ROYAL(Uniroyal Elec)"/>
-      <property name="LCSC_Part_Number" value="C25804"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>fa526187-0f24-47a2-b885-741b424842f7</tstamps>
-    </comp>
-    <comp ref="R9">
-      <value>680</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2308241947_FOJAN-FRC0603J681-TS_C2907195.pdf</datasheet>
-      <fields>
-        <field name="LCSC_Part_Number">C2907195</field>
-        <field name="Manufacturer_Name">FOJAN</field>
-        <field name="Manufacturer_Part_Number">FRC0603J681 TS</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Manufacturer_Part_Number" value="FRC0603J681 TS"/>
-      <property name="Manufacturer_Name" value="FOJAN"/>
-      <property name="LCSC_Part_Number" value="C2907195"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>e19464da-5cbd-44c0-9b91-1f33f9bd6cf9</tstamps>
-    </comp>
-    <comp ref="R10">
-      <value>10K</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
-      <fields>
-        <field name="LCSC_Part_Number">C25804</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0603WAF1002T5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Manufacturer_Part_Number" value="0603WAF1002T5E"/>
-      <property name="Manufacturer_Name" value="UNI-ROYAL(Uniroyal Elec)"/>
-      <property name="LCSC_Part_Number" value="C25804"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>0f4c8927-6e2e-4adf-9a8c-14034182daee</tstamps>
-    </comp>
-    <comp ref="R11">
-      <value>10K</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
-      <fields>
-        <field name="LCSC_Part_Number">C25804</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0603WAF1002T5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Manufacturer_Part_Number" value="0603WAF1002T5E"/>
-      <property name="Manufacturer_Name" value="UNI-ROYAL(Uniroyal Elec)"/>
-      <property name="LCSC_Part_Number" value="C25804"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>134dbc4c-0b87-4ac6-a4fc-be0d336d87e8</tstamps>
-    </comp>
-    <comp ref="R12">
-      <value>3K3</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2308241947_FOJAN-FRC0603J332-TS_C2907140.pdf</datasheet>
-      <fields>
-        <field name="LCSC_Part_Number">C2907140</field>
-        <field name="Manufacturer_Name">FOJAN</field>
-        <field name="Manufacturer_Part_Number">FRC0603J332 TS</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Manufacturer_Part_Number" value="FRC0603J332 TS"/>
-      <property name="Manufacturer_Name" value="FOJAN"/>
-      <property name="LCSC_Part_Number" value="C2907140"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>646c1217-2e72-4acd-b446-36d4ac70dfca</tstamps>
-    </comp>
-    <comp ref="R13">
-      <value>680</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2308241947_FOJAN-FRC0603J681-TS_C2907195.pdf</datasheet>
-      <fields>
-        <field name="LCSC_Part_Number">C2907195</field>
-        <field name="Manufacturer_Name">FOJAN</field>
-        <field name="Manufacturer_Part_Number">FRC0603J681 TS</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Manufacturer_Part_Number" value="FRC0603J681 TS"/>
-      <property name="Manufacturer_Name" value="FOJAN"/>
-      <property name="LCSC_Part_Number" value="C2907195"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>a951da09-5274-4733-b30f-03e011f982a2</tstamps>
-    </comp>
-    <comp ref="R14">
-      <value>680</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2308241947_FOJAN-FRC0603J681-TS_C2907195.pdf</datasheet>
-      <fields>
-        <field name="LCSC_Part_Number">C2907195</field>
-        <field name="Manufacturer_Name">FOJAN</field>
-        <field name="Manufacturer_Part_Number">FRC0603J681 TS</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Manufacturer_Part_Number" value="FRC0603J681 TS"/>
-      <property name="Manufacturer_Name" value="FOJAN"/>
-      <property name="LCSC_Part_Number" value="C2907195"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>57e447c2-424f-45fc-8427-274c73188581</tstamps>
-    </comp>
-    <comp ref="R15">
-      <value>680</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2308241947_FOJAN-FRC0603J681-TS_C2907195.pdf</datasheet>
-      <fields>
-        <field name="LCSC_Part_Number">C2907195</field>
-        <field name="Manufacturer_Name">FOJAN</field>
-        <field name="Manufacturer_Part_Number">FRC0603J681 TS</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Manufacturer_Part_Number" value="FRC0603J681 TS"/>
-      <property name="Manufacturer_Name" value="FOJAN"/>
-      <property name="LCSC_Part_Number" value="C2907195"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5979feeb-2979-45e1-b9b5-458ad07a7a54</tstamps>
-    </comp>
-    <comp ref="R21">
-      <value>47k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2308241947_FOJAN-FRC0603J473-TS_C2907173.pdf</datasheet>
-      <fields>
-        <field name="LCSC_Part_Number">C2907173</field>
-        <field name="Manufacturer_Name">FOJAN</field>
-        <field name="Manufacturer_Part_Number">FRC0603J473 TS</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Manufacturer_Part_Number" value="FRC0603J473 TS"/>
-      <property name="Manufacturer_Name" value="FOJAN"/>
-      <property name="LCSC_Part_Number" value="C2907173"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>7466468c-d5c3-4ccc-ade7-83f288a76db1</tstamps>
-    </comp>
-    <comp ref="R28">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
@@ -951,49 +802,187 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d7bcf06c-bad7-4073-a0da-0f51d60022d1</tstamps>
     </comp>
-    <comp ref="U1">
-      <value>Pi_Pico</value>
-      <footprint>footprint_library:MODULE_SC0915</footprint>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
       <fields>
-        <field name="Availability">In Stock</field>
-        <field name="Check_prices">https://www.snapeda.com/parts/SC0915/Raspberry+Pi/view-part/?ref=eda</field>
-        <field name="Description">
-Raspberry Pi Pico Embedded Dev Module | Raspberry Pi SC0915
-</field>
-        <field name="MANUFACTURER">Pi Supply</field>
-        <field name="MF">Raspberry Pi</field>
-        <field name="MP">SC0915</field>
-        <field name="PARTREV">1.9</field>
-        <field name="Package">None</field>
-        <field name="Price">None</field>
-        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6331605&amp;manufacturer=Raspberry Pi&amp;part_name=SC0915&amp;search_term=pi pico</field>
-        <field name="SNAPEDA_PN">SC0915</field>
-        <field name="STANDARD">Manufacturer Recommendations</field>
-        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SC0915/Raspberry+Pi/view-part/?ref=snap</field>
+        <field name="LCSC_Part_Number">C25804</field>
+        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer_Part_Number">0603WAF1002T5E</field>
       </fields>
-      <libsource lib="SC0915" part="Pi_Pico" description=""/>
-      <property name="MF" value="Raspberry Pi"/>
-      <property name="Description" value="&#xA;Raspberry Pi Pico Embedded Dev Module | Raspberry Pi SC0915&#xA;"/>
-      <property name="Package" value="None"/>
-      <property name="Price" value="None"/>
-      <property name="Check_prices" value="https://www.snapeda.com/parts/SC0915/Raspberry+Pi/view-part/?ref=eda"/>
-      <property name="STANDARD" value="Manufacturer Recommendations"/>
-      <property name="PARTREV" value="1.9"/>
-      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/SC0915/Raspberry+Pi/view-part/?ref=snap"/>
-      <property name="MP" value="SC0915"/>
-      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6331605&amp;manufacturer=Raspberry Pi&amp;part_name=SC0915&amp;search_term=pi pico"/>
-      <property name="MANUFACTURER" value="Pi Supply"/>
-      <property name="Availability" value="In Stock"/>
-      <property name="SNAPEDA_PN" value="SC0915"/>
-      <property name="Manufacturer_Part_Number" value=""/>
-      <property name="Manufacturer_Name" value=""/>
-      <property name="LCSC_Part_Number" value=""/>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="0603WAF1002T5E"/>
+      <property name="Manufacturer_Name" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="LCSC_Part_Number" value="C25804"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>c5c5d158-d3ff-4879-a6ef-0209bf7cfcf4</tstamps>
+      <tstamps>134dbc4c-0b87-4ac6-a4fc-be0d336d87e8</tstamps>
     </comp>
-    <comp ref="U3">
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC_Part_Number">C25804</field>
+        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer_Part_Number">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="0603WAF1002T5E"/>
+      <property name="Manufacturer_Name" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="LCSC_Part_Number" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f4c8927-6e2e-4adf-9a8c-14034182daee</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC_Part_Number">C25804</field>
+        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer_Part_Number">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="0603WAF1002T5E"/>
+      <property name="Manufacturer_Name" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="LCSC_Part_Number" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa526187-0f24-47a2-b885-741b424842f7</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC_Part_Number">C25804</field>
+        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer_Part_Number">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="0603WAF1002T5E"/>
+      <property name="Manufacturer_Name" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="LCSC_Part_Number" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4847427f-24f1-4e19-a96c-1303d4c3130d</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC_Part_Number">C25804</field>
+        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer_Part_Number">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="0603WAF1002T5E"/>
+      <property name="Manufacturer_Name" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="LCSC_Part_Number" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68849f01-6642-4f45-8a31-7875e9cd3844</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC_Part_Number">C25804</field>
+        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer_Part_Number">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="0603WAF1002T5E"/>
+      <property name="Manufacturer_Name" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="LCSC_Part_Number" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19c100bb-fd19-44fd-b935-99a64e6587aa</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>3K3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2308241947_FOJAN-FRC0603J332-TS_C2907140.pdf</datasheet>
+      <fields>
+        <field name="LCSC_Part_Number">C2907140</field>
+        <field name="Manufacturer_Name">FOJAN</field>
+        <field name="Manufacturer_Part_Number">FRC0603J332 TS</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="FRC0603J332 TS"/>
+      <property name="Manufacturer_Name" value="FOJAN"/>
+      <property name="LCSC_Part_Number" value="C2907140"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>646c1217-2e72-4acd-b446-36d4ac70dfca</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2308241947_FOJAN-FRC0603J473-TS_C2907173.pdf</datasheet>
+      <fields>
+        <field name="LCSC_Part_Number">C2907173</field>
+        <field name="Manufacturer_Name">FOJAN</field>
+        <field name="Manufacturer_Part_Number">FRC0603J473 TS</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="FRC0603J473 TS"/>
+      <property name="Manufacturer_Name" value="FOJAN"/>
+      <property name="LCSC_Part_Number" value="C2907173"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7466468c-d5c3-4ccc-ade7-83f288a76db1</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC_Part_Number">C25804</field>
+        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer_Part_Number">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="0603WAF1002T5E"/>
+      <property name="Manufacturer_Name" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="LCSC_Part_Number" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d945d771-a739-45be-b24c-eb868878afa2</tstamps>
+    </comp>
+    <comp ref="U1">
       <value>PC817</value>
       <footprint>Package_DIP:SMDIP-4_W7.62mm</footprint>
       <datasheet>http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</datasheet>
@@ -1013,7 +1002,27 @@ Raspberry Pi Pico Embedded Dev Module | Raspberry Pi SC0915
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e33e3e94-000b-4cae-935e-351a533c0dbb</tstamps>
     </comp>
-    <comp ref="U6">
+    <comp ref="U3">
+      <value>LM2596S-5</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2596.pdf</datasheet>
+      <fields>
+        <field name="LCSC_Part_Number">C5157156</field>
+        <field name="Manufacturer_Name">HANSCHIP semiconductor</field>
+        <field name="Manufacturer_Part_Number">LM2596S-5.0RG</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="LM2596S-5" description="5V 3A Step-Down Voltage Regulator, TO-263"/>
+      <property name="Manufacturer_Part_Number" value="LM2596S-5.0RG"/>
+      <property name="Manufacturer_Name" value="HANSCHIP semiconductor"/>
+      <property name="LCSC_Part_Number" value="C5157156"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
+      <property name="ki_description" value="5V 3A Step-Down Voltage Regulator, TO-263"/>
+      <property name="ki_keywords" value="Step-Down Voltage Regulator 5V 3A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12c89277-0f32-4e1c-908e-24622e873dfd</tstamps>
+    </comp>
+    <comp ref="U4">
       <value>XL4015</value>
       <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
       <datasheet>http://www.xlsemi.net/datasheet/XL4015%20datasheet-English.pdf</datasheet>
@@ -1033,25 +1042,47 @@ Raspberry Pi Pico Embedded Dev Module | Raspberry Pi SC0915
       <sheetpath names="/" tstamps="/"/>
       <tstamps>80627256-c332-4c5e-ba04-8161a9c00326</tstamps>
     </comp>
-    <comp ref="U7">
-      <value>LM2596S-5</value>
-      <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/lm2596.pdf</datasheet>
+    <comp ref="U5">
+      <value>SC0915</value>
+      <footprint>footprint_library:RPi_Pico_SMD_TH_REMOVED_SWD_PINS</footprint>
       <fields>
-        <field name="LCSC_Part_Number">C5157156</field>
-        <field name="Manufacturer_Name">HANSCHIP semiconductor</field>
-        <field name="Manufacturer_Part_Number">LM2596S-5.0RG</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SC0915/Raspberry+Pi/view-part/?ref=eda</field>
+        <field name="Description">
+Raspberry Pi Pico Embedded Dev Module | Raspberry Pi SC0915
+</field>
+        <field name="MANUFACTURER">Pi Supply</field>
+        <field name="MF">Raspberry Pi</field>
+        <field name="MP">SC0915</field>
+        <field name="PARTREV">1.9</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6331605&amp;manufacturer=Raspberry Pi&amp;part_name=SC0915&amp;search_term=pi pico</field>
+        <field name="SNAPEDA_PN">SC0915</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SC0915/Raspberry+Pi/view-part/?ref=snap</field>
       </fields>
-      <libsource lib="Regulator_Switching" part="LM2596S-5" description="5V 3A Step-Down Voltage Regulator, TO-263"/>
-      <property name="Manufacturer_Part_Number" value="LM2596S-5.0RG"/>
-      <property name="Manufacturer_Name" value="HANSCHIP semiconductor"/>
-      <property name="LCSC_Part_Number" value="C5157156"/>
+      <libsource lib="Snapeda_kicad_sym" part="SC0915" description=""/>
+      <property name="MF" value="Raspberry Pi"/>
+      <property name="Description" value="&#xA;Raspberry Pi Pico Embedded Dev Module | Raspberry Pi SC0915&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/SC0915/Raspberry+Pi/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="1.9"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/SC0915/Raspberry+Pi/view-part/?ref=snap"/>
+      <property name="MP" value="SC0915"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6331605&amp;manufacturer=Raspberry Pi&amp;part_name=SC0915&amp;search_term=pi pico"/>
+      <property name="MANUFACTURER" value="Pi Supply"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="SNAPEDA_PN" value="SC0915"/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="LCSC_Part_Number" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
-      <property name="ki_description" value="5V 3A Step-Down Voltage Regulator, TO-263"/>
-      <property name="ki_keywords" value="Step-Down Voltage Regulator 5V 3A"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>12c89277-0f32-4e1c-908e-24622e873dfd</tstamps>
+      <tstamps>72a37da0-df67-4c32-9f5f-8798120c00e7</tstamps>
     </comp>
   </components>
   <libparts>
@@ -1104,6 +1135,27 @@ Raspberry Pi Pico Embedded Dev Module | Raspberry Pi SC0915
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
         <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle_PowerOnly_6P">
+      <description>USB Power-Only 6P Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_PowerOnly_6P</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+      </fields>
+      <pins>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="Battery">
@@ -1275,6 +1327,18 @@ Raspberry Pi Pico Embedded Dev Module | Raspberry Pi SC0915
         <pin num="4" name="" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
     <libpart lib="Regulator_Switching" part="LM2596S-5">
       <description>5V 3A Step-Down Voltage Regulator, TO-263</description>
       <docs>http://www.ti.com/lit/ds/symlink/lm2596.pdf</docs>
@@ -1335,15 +1399,15 @@ Raspberry Pi Pico Embedded Dev Module | Raspberry Pi SC0915
         <pin num="5" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="SC0915" part="Pi_Pico">
+    <libpart lib="Snapeda_kicad_sym" part="SC0915">
       <fields>
-        <field name="Reference">U</field>
-        <field name="Value">Pi_Pico</field>
-        <field name="Footprint">SC0915:MODULE_SC0915</field>
-        <field name="MF">Raspberry Pi</field>
+        <field name="Reference">U5</field>
+        <field name="Value">SC0915</field>
+        <field name="Footprint">footprint_library:RPi_Pico_SMD_TH_REMOVED_SWD_PINS</field>
         <field name="Description">
 Raspberry Pi Pico Embedded Dev Module | Raspberry Pi SC0915
 </field>
+        <field name="MF">Raspberry Pi</field>
         <field name="Package">None</field>
         <field name="Price">None</field>
         <field name="Check_prices">https://www.snapeda.com/parts/SC0915/Raspberry+Pi/view-part/?ref=eda</field>
@@ -1397,19 +1461,8 @@ Raspberry Pi Pico Embedded Dev Module | Raspberry Pi SC0915
         <pin num="38" name="GND" type="power_in"/>
         <pin num="39" name="VSYS" type="power_in"/>
         <pin num="40" name="VBUS" type="power_in"/>
-        <pin num="A" name="USB_SHIELD" type="power_in"/>
-        <pin num="B" name="USB_SHIELD" type="power_in"/>
-        <pin num="C" name="USB_SHIELD" type="power_in"/>
-        <pin num="D" name="USB_SHIELD" type="power_in"/>
         <pin num="D1" name="SWCLK" type="input"/>
-        <pin num="D2" name="GND" type="power_in"/>
         <pin num="D3" name="SWDIO" type="bidirectional"/>
-        <pin num="TP1" name="TP1_GND" type="power_in"/>
-        <pin num="TP2" name="TP2_USB_DM" type="bidirectional"/>
-        <pin num="TP3" name="TP3_USB_DP" type="bidirectional"/>
-        <pin num="TP4" name="TP4_GPIO23/SMPS_PS" type="no_connect"/>
-        <pin num="TP5" name="TP5_GPIO25/LED" type="output"/>
-        <pin num="TP6" name="TP6_BOOTSEL" type="input"/>
       </pins>
     </libpart>
   </libparts>
@@ -1426,147 +1479,166 @@ Raspberry Pi Pico Embedded Dev Module | Raspberry Pi SC0915
     <library logical="Isolator">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Isolator.kicad_sym</uri>
     </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
     <library logical="Regulator_Switching">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Switching.kicad_sym</uri>
     </library>
     <library logical="Relay">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Relay.kicad_sym</uri>
     </library>
-    <library logical="SC0915">
-      <uri>/Users/matthew_busoye/Documents/KiCad/projects/Powerlabstech_Stool/schematic_library/SC0915.kicad_sym</uri>
+    <library logical="Snapeda_kicad_sym">
+      <uri>/Users/matthew_busoye/Documents/KiCad/projects/Powerlabstech_Stool/library/Snapeda_kicad_sym.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="+3.3V">
-      <node ref="R3" pin="1" pintype="passive"/>
-      <node ref="U1" pin="36" pinfunction="3V3_OUT" pintype="power_in"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U5" pin="36" pinfunction="3V3_OUT" pintype="power_in"/>
     </net>
     <net code="2" name="+5V">
-      <node ref="C5" pin="1" pintype="passive"/>
-      <node ref="C9" pin="1" pintype="passive"/>
-      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D7" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="K2" pin="5" pintype="passive"/>
-      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="U1" pin="39" pinfunction="VSYS" pintype="power_in"/>
-      <node ref="U7" pin="4" pinfunction="FB" pintype="input"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="K1" pin="5" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="FB" pintype="input"/>
+      <node ref="U5" pin="39" pinfunction="VSYS" pintype="power_in"/>
     </net>
     <net code="3" name="/BATT_OUT+">
-      <node ref="C10" pin="1" pintype="passive"/>
-      <node ref="C3" pin="1" pintype="passive"/>
-      <node ref="Q4" pin="2" pinfunction="D" pintype="passive"/>
-      <node ref="U6" pin="5" pinfunction="VIN" pintype="power_in"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="VIN" pintype="power_in"/>
     </net>
     <net code="4" name="/BATT_POS">
       <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
-      <node ref="C12" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
       <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="Q4" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="R21" pin="1" pintype="passive"/>
-      <node ref="R4" pin="1" pintype="passive"/>
-      <node ref="U7" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="Q5" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="VIN" pintype="power_in"/>
     </net>
     <net code="5" name="/BATT_READ">
-      <node ref="C2" pin="1" pintype="passive"/>
-      <node ref="R21" pin="2" pintype="passive"/>
-      <node ref="R6" pin="1" pintype="passive"/>
-      <node ref="U1" pin="20" pinfunction="GP15" pintype="bidirectional"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="GP5" pintype="bidirectional"/>
     </net>
     <net code="6" name="/FB_1">
-      <node ref="R12" pin="1" pintype="passive"/>
-      <node ref="R7" pin="2" pintype="passive"/>
-      <node ref="U6" pin="2" pinfunction="FB" pintype="input"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="FB" pintype="input"/>
     </net>
     <net code="7" name="/GSM_RESET">
-      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="U1" pin="2" pinfunction="GP1" pintype="bidirectional"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="GP3" pintype="bidirectional"/>
     </net>
     <net code="8" name="/GSM_RXD">
-      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="U1" pin="4" pinfunction="GP2" pintype="bidirectional"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="GP2" pintype="bidirectional"/>
     </net>
     <net code="9" name="/GSM_TXD">
-      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="U1" pin="5" pinfunction="GP3" pintype="bidirectional"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="GP1" pintype="bidirectional"/>
     </net>
     <net code="10" name="/LED_BLUE">
-      <node ref="R13" pin="2" pintype="passive"/>
-      <node ref="U1" pin="31" pinfunction="GP26" pintype="bidirectional"/>
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U5" pin="31" pinfunction="GP26" pintype="bidirectional"/>
     </net>
     <net code="11" name="/LED_BLUE_OUT">
-      <node ref="D7" pin="4" pinfunction="BK" pintype="passive"/>
-      <node ref="Q6" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="D3" pin="4" pinfunction="BK" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
     </net>
     <net code="12" name="/LED_GREEN">
-      <node ref="R2" pin="2" pintype="passive"/>
-      <node ref="U1" pin="32" pinfunction="GP27" pintype="bidirectional"/>
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U5" pin="32" pinfunction="GP27" pintype="bidirectional"/>
     </net>
     <net code="13" name="/LED_GREEN_OUT">
-      <node ref="D7" pin="3" pinfunction="GK" pintype="passive"/>
-      <node ref="Q5" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="D3" pin="3" pinfunction="GK" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
     </net>
     <net code="14" name="/LED_RED">
-      <node ref="R14" pin="2" pintype="passive"/>
-      <node ref="U1" pin="34" pinfunction="GP28" pintype="bidirectional"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U5" pin="34" pinfunction="GP28" pintype="bidirectional"/>
     </net>
     <net code="15" name="/LED_RED_OUT">
-      <node ref="D7" pin="2" pinfunction="RK" pintype="passive"/>
-      <node ref="Q8" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="RK" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
     </net>
     <net code="16" name="/LIVE">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="K2" pin="4" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K1" pin="4" pintype="passive"/>
     </net>
     <net code="17" name="/LIVE_RELAY_CHARGER_OUT">
       <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="K2" pin="1" pintype="passive"/>
+      <node ref="K1" pin="1" pintype="passive"/>
     </net>
     <net code="18" name="/LOAD_SWITCH">
-      <node ref="R9" pin="2" pintype="passive"/>
-      <node ref="U1" pin="9" pinfunction="GP6" pintype="bidirectional"/>
+      <node ref="Q6" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="GP4" pintype="bidirectional"/>
     </net>
     <net code="19" name="/MAINS_RELAY">
-      <node ref="R15" pin="2" pintype="passive"/>
-      <node ref="U1" pin="29" pinfunction="GP22" pintype="bidirectional"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U5" pin="29" pinfunction="GP22" pintype="bidirectional"/>
     </net>
     <net code="20" name="/MAINS_SENSE">
-      <node ref="C6" pin="1" pintype="passive"/>
-      <node ref="R3" pin="2" pintype="passive"/>
-      <node ref="U1" pin="7" pinfunction="GP5" pintype="bidirectional"/>
-      <node ref="U3" pin="4" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pintype="passive"/>
+      <node ref="U5" pin="9" pinfunction="GP6" pintype="bidirectional"/>
     </net>
     <net code="21" name="/NEUTRAL">
       <node ref="C1" pin="2" pintype="passive"/>
-      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="U3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pintype="passive"/>
     </net>
     <net code="22" name="/main_det_ret">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="23" name="/sw_1">
+    <net code="23" name="/out_1">
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="3" pinfunction="SW" pintype="power_out"/>
+      <node ref="U3" pin="2" pinfunction="OUT" pintype="output"/>
     </net>
-    <net code="24" name="/sw_OUT">
+    <net code="24" name="/sw_1">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="SW" pintype="power_out"/>
+    </net>
+    <net code="25" name="/sw_OUT">
+      <node ref="C10" pin="1" pintype="passive"/>
       <node ref="C11" pin="1" pintype="passive"/>
-      <node ref="C7" pin="1" pintype="passive"/>
-      <node ref="C8" pin="1" pintype="passive"/>
-      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J6" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
     </net>
-    <net code="25" name="GND">
+    <net code="26" name="GND">
       <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
       <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
@@ -1575,174 +1647,136 @@ Raspberry Pi Pico Embedded Dev Module | Raspberry Pi SC0915
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
-      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J6" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J6" pin="S1" pinfunction="SHIELD" pintype="passive"/>
       <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q5" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="Q6" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q8" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
-      <node ref="R12" pin="2" pintype="passive"/>
-      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
-      <node ref="R8" pin="2" pintype="passive"/>
-      <node ref="U1" pin="13" pinfunction="GND" pintype="power_in"/>
-      <node ref="U1" pin="18" pinfunction="GND" pintype="power_in"/>
-      <node ref="U1" pin="23" pinfunction="GND" pintype="power_in"/>
-      <node ref="U1" pin="28" pinfunction="GND" pintype="power_in"/>
-      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
-      <node ref="U1" pin="33" pinfunction="AGND" pintype="power_in"/>
-      <node ref="U1" pin="38" pinfunction="GND" pintype="power_in"/>
-      <node ref="U1" pin="8" pinfunction="GND" pintype="power_in"/>
-      <node ref="U1" pin="D2" pinfunction="GND" pintype="power_in"/>
-      <node ref="U3" pin="3" pintype="passive"/>
-      <node ref="U6" pin="1" pinfunction="GND" pintype="power_in"/>
-      <node ref="U6" pin="4" pinfunction="VC" pintype="input"/>
-      <node ref="U7" pin="3" pinfunction="GND" pintype="power_in"/>
-      <node ref="U7" pin="5" pinfunction="~{ON}/OFF" pintype="input"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="~{ON}/OFF" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="VC" pintype="input"/>
+      <node ref="U5" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="18" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="23" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="28" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="33" pinfunction="AGND" pintype="power_in"/>
     </net>
-    <net code="26" name="Net-(D2-A)">
+    <net code="27" name="Net-(D2-A)">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U7" pin="2" pinfunction="OUT" pintype="output"/>
-    </net>
-    <net code="27" name="Net-(D3-A)">
-      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="K2" pin="2" pintype="passive"/>
-      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
-    </net>
-    <net code="28" name="Net-(Q1-D)">
+      <node ref="K1" pin="2" pintype="passive"/>
       <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R4" pin="2" pintype="passive"/>
     </net>
-    <net code="29" name="Net-(Q1-G)">
-      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R5" pin="1" pintype="passive"/>
-      <node ref="R9" pin="1" pintype="passive"/>
-    </net>
-    <net code="30" name="Net-(Q2-G)">
-      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R15" pin="1" pintype="passive"/>
-      <node ref="R28" pin="1" pintype="passive"/>
-    </net>
-    <net code="31" name="Net-(Q5-G)">
+    <net code="28" name="Net-(Q5-G)">
       <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R10" pin="1" pintype="passive"/>
-      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
     </net>
-    <net code="32" name="Net-(Q6-G)">
-      <node ref="Q6" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R13" pin="1" pintype="passive"/>
-      <node ref="R8" pin="1" pintype="passive"/>
-    </net>
-    <net code="33" name="Net-(Q8-G)">
-      <node ref="Q8" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R11" pin="1" pintype="passive"/>
-      <node ref="R14" pin="1" pintype="passive"/>
-    </net>
-    <net code="34" name="Net-(R1-Pad2)">
+    <net code="29" name="Net-(R1-Pad2)">
       <node ref="R1" pin="2" pintype="passive"/>
-      <node ref="U3" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
     </net>
-    <net code="35" name="unconnected-(K2-Pad3)">
-      <node ref="K2" pin="3" pintype="passive+no_connect"/>
+    <net code="30" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="passive"/>
     </net>
-    <net code="36" name="unconnected-(U1-3V3_EN-Pad37)">
-      <node ref="U1" pin="37" pinfunction="3V3_EN" pintype="input+no_connect"/>
+    <net code="31" name="unconnected-(J6-CC1-PadA5)">
+      <node ref="J6" pin="A5" pinfunction="CC1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="37" name="unconnected-(U1-ADC_VREF-Pad35)">
-      <node ref="U1" pin="35" pinfunction="ADC_VREF" pintype="power_in+no_connect"/>
+    <net code="32" name="unconnected-(J6-CC2-PadB5)">
+      <node ref="J6" pin="B5" pinfunction="CC2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="38" name="unconnected-(U1-GP0-Pad1)">
-      <node ref="U1" pin="1" pinfunction="GP0" pintype="bidirectional+no_connect"/>
+    <net code="33" name="unconnected-(K1-Pad3)">
+      <node ref="K1" pin="3" pintype="passive+no_connect"/>
     </net>
-    <net code="39" name="unconnected-(U1-GP4-Pad6)">
-      <node ref="U1" pin="6" pinfunction="GP4" pintype="bidirectional+no_connect"/>
+    <net code="34" name="unconnected-(U5-3V3_EN-Pad37)">
+      <node ref="U5" pin="37" pinfunction="3V3_EN" pintype="input+no_connect"/>
     </net>
-    <net code="40" name="unconnected-(U1-GP7-Pad10)">
-      <node ref="U1" pin="10" pinfunction="GP7" pintype="bidirectional+no_connect"/>
+    <net code="35" name="unconnected-(U5-ADC_VREF-Pad35)">
+      <node ref="U5" pin="35" pinfunction="ADC_VREF" pintype="power_in+no_connect"/>
     </net>
-    <net code="41" name="unconnected-(U1-GP8-Pad11)">
-      <node ref="U1" pin="11" pinfunction="GP8" pintype="bidirectional+no_connect"/>
+    <net code="36" name="unconnected-(U5-GND-Pad8)">
+      <node ref="U5" pin="8" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="42" name="unconnected-(U1-GP9-Pad12)">
-      <node ref="U1" pin="12" pinfunction="GP9" pintype="bidirectional+no_connect"/>
+    <net code="37" name="unconnected-(U5-GND-Pad38)">
+      <node ref="U5" pin="38" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="43" name="unconnected-(U1-GP10-Pad14)">
-      <node ref="U1" pin="14" pinfunction="GP10" pintype="bidirectional+no_connect"/>
+    <net code="38" name="unconnected-(U5-GP0-Pad1)">
+      <node ref="U5" pin="1" pinfunction="GP0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="44" name="unconnected-(U1-GP11-Pad15)">
-      <node ref="U1" pin="15" pinfunction="GP11" pintype="bidirectional+no_connect"/>
+    <net code="39" name="unconnected-(U5-GP7-Pad10)">
+      <node ref="U5" pin="10" pinfunction="GP7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="45" name="unconnected-(U1-GP12-Pad16)">
-      <node ref="U1" pin="16" pinfunction="GP12" pintype="bidirectional+no_connect"/>
+    <net code="40" name="unconnected-(U5-GP8-Pad11)">
+      <node ref="U5" pin="11" pinfunction="GP8" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="46" name="unconnected-(U1-GP13-Pad17)">
-      <node ref="U1" pin="17" pinfunction="GP13" pintype="bidirectional+no_connect"/>
+    <net code="41" name="unconnected-(U5-GP9-Pad12)">
+      <node ref="U5" pin="12" pinfunction="GP9" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="47" name="unconnected-(U1-GP14-Pad19)">
-      <node ref="U1" pin="19" pinfunction="GP14" pintype="bidirectional+no_connect"/>
+    <net code="42" name="unconnected-(U5-GP10-Pad14)">
+      <node ref="U5" pin="14" pinfunction="GP10" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="48" name="unconnected-(U1-GP16-Pad21)">
-      <node ref="U1" pin="21" pinfunction="GP16" pintype="bidirectional+no_connect"/>
+    <net code="43" name="unconnected-(U5-GP11-Pad15)">
+      <node ref="U5" pin="15" pinfunction="GP11" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="49" name="unconnected-(U1-GP17-Pad22)">
-      <node ref="U1" pin="22" pinfunction="GP17" pintype="bidirectional+no_connect"/>
+    <net code="44" name="unconnected-(U5-GP12-Pad16)">
+      <node ref="U5" pin="16" pinfunction="GP12" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="50" name="unconnected-(U1-GP18-Pad24)">
-      <node ref="U1" pin="24" pinfunction="GP18" pintype="bidirectional+no_connect"/>
+    <net code="45" name="unconnected-(U5-GP13-Pad17)">
+      <node ref="U5" pin="17" pinfunction="GP13" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="51" name="unconnected-(U1-GP19-Pad25)">
-      <node ref="U1" pin="25" pinfunction="GP19" pintype="bidirectional"/>
+    <net code="46" name="unconnected-(U5-GP14-Pad19)">
+      <node ref="U5" pin="19" pinfunction="GP14" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="52" name="unconnected-(U1-GP20-Pad26)">
-      <node ref="U1" pin="26" pinfunction="GP20" pintype="bidirectional"/>
+    <net code="47" name="unconnected-(U5-GP15-Pad20)">
+      <node ref="U5" pin="20" pinfunction="GP15" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="53" name="unconnected-(U1-GP21-Pad27)">
-      <node ref="U1" pin="27" pinfunction="GP21" pintype="bidirectional"/>
+    <net code="48" name="unconnected-(U5-GP16-Pad21)">
+      <node ref="U5" pin="21" pinfunction="GP16" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="54" name="unconnected-(U1-SWCLK-PadD1)">
-      <node ref="U1" pin="D1" pinfunction="SWCLK" pintype="input+no_connect"/>
+    <net code="49" name="unconnected-(U5-GP17-Pad22)">
+      <node ref="U5" pin="22" pinfunction="GP17" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="55" name="unconnected-(U1-SWDIO-PadD3)">
-      <node ref="U1" pin="D3" pinfunction="SWDIO" pintype="bidirectional+no_connect"/>
+    <net code="50" name="unconnected-(U5-GP18-Pad24)">
+      <node ref="U5" pin="24" pinfunction="GP18" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="56" name="unconnected-(U1-TP1_GND-PadTP1)">
-      <node ref="U1" pin="TP1" pinfunction="TP1_GND" pintype="power_in+no_connect"/>
+    <net code="51" name="unconnected-(U5-GP19-Pad25)">
+      <node ref="U5" pin="25" pinfunction="GP19" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="57" name="unconnected-(U1-TP2_USB_DM-PadTP2)">
-      <node ref="U1" pin="TP2" pinfunction="TP2_USB_DM" pintype="bidirectional+no_connect"/>
+    <net code="52" name="unconnected-(U5-GP20-Pad26)">
+      <node ref="U5" pin="26" pinfunction="GP20" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="58" name="unconnected-(U1-TP3_USB_DP-PadTP3)">
-      <node ref="U1" pin="TP3" pinfunction="TP3_USB_DP" pintype="bidirectional+no_connect"/>
+    <net code="53" name="unconnected-(U5-GP21-Pad27)">
+      <node ref="U5" pin="27" pinfunction="GP21" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="59" name="unconnected-(U1-TP4_GPIO23{slash}SMPS_PS-PadTP4)">
-      <node ref="U1" pin="TP4" pinfunction="TP4_GPIO23/SMPS_PS" pintype="no_connect"/>
+    <net code="54" name="unconnected-(U5-SWCLK-PadD1)">
+      <node ref="U5" pin="D1" pinfunction="SWCLK" pintype="input+no_connect"/>
     </net>
-    <net code="60" name="unconnected-(U1-TP5_GPIO25{slash}LED-PadTP5)">
-      <node ref="U1" pin="TP5" pinfunction="TP5_GPIO25/LED" pintype="output+no_connect"/>
+    <net code="55" name="unconnected-(U5-SWDIO-PadD3)">
+      <node ref="U5" pin="D3" pinfunction="SWDIO" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="61" name="unconnected-(U1-TP6_BOOTSEL-PadTP6)">
-      <node ref="U1" pin="TP6" pinfunction="TP6_BOOTSEL" pintype="input+no_connect"/>
+    <net code="56" name="unconnected-(U5-VBUS-Pad40)">
+      <node ref="U5" pin="40" pinfunction="VBUS" pintype="power_in+no_connect"/>
     </net>
-    <net code="62" name="unconnected-(U1-USB_SHIELD-PadA)">
-      <node ref="U1" pin="A" pinfunction="USB_SHIELD" pintype="power_in+no_connect"/>
-      <node ref="U1" pin="B" pinfunction="USB_SHIELD" pintype="power_in+no_connect"/>
-      <node ref="U1" pin="C" pinfunction="USB_SHIELD" pintype="power_in+no_connect"/>
-      <node ref="U1" pin="D" pinfunction="USB_SHIELD" pintype="power_in+no_connect"/>
-    </net>
-    <net code="63" name="unconnected-(U1-VBUS-Pad40)">
-      <node ref="U1" pin="40" pinfunction="VBUS" pintype="power_in+no_connect"/>
-    </net>
-    <net code="64" name="unconnected-(U1-~{RUN}-Pad30)">
-      <node ref="U1" pin="30" pinfunction="~{RUN}" pintype="input+no_connect"/>
+    <net code="57" name="unconnected-(U5-~{RUN}-Pad30)">
+      <node ref="U5" pin="30" pinfunction="~{RUN}" pintype="input+no_connect"/>
     </net>
   </nets>
 </export>
