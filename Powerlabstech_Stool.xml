@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/matthew_busoye/Documents/KiCad/projects/Powerlabstech_Stool/Powerlabstech_Stool.kicad_sch</source>
-    <date>Saturday, February 03, 2024 at 01:04:52 AM</date>
+    <date>Monday, February 05, 2024 at 12:38:52 AM</date>
     <tool>Eeschema 7.0.10</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -296,7 +296,7 @@
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>269645cb-5ed7-4858-bb10-63cb2c46af08</tstamps>
+      <tstamps>2839ae96-0a12-41db-99de-eb5e14c118e5</tstamps>
     </comp>
     <comp ref="C14">
       <value>100nF</value>
@@ -316,7 +316,7 @@
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>2839ae96-0a12-41db-99de-eb5e14c118e5</tstamps>
+      <tstamps>269645cb-5ed7-4858-bb10-63cb2c46af08</tstamps>
     </comp>
     <comp ref="D1">
       <value>D</value>
@@ -920,9 +920,49 @@
       <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>19c100bb-fd19-44fd-b935-99a64e6587aa</tstamps>
+      <tstamps>1733ec4e-826a-4f5b-ba0e-220b82fd8d39</tstamps>
     </comp>
     <comp ref="R11">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC_Part_Number">C25804</field>
+        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer_Part_Number">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="0603WAF1002T5E"/>
+      <property name="Manufacturer_Name" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="LCSC_Part_Number" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09ddd69b-b6d5-4c99-9fac-c91304610664</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC_Part_Number">C25804</field>
+        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer_Part_Number">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="0603WAF1002T5E"/>
+      <property name="Manufacturer_Name" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="LCSC_Part_Number" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19c100bb-fd19-44fd-b935-99a64e6587aa</tstamps>
+    </comp>
+    <comp ref="R13">
       <value>3K3</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2308241947_FOJAN-FRC0603J332-TS_C2907140.pdf</datasheet>
@@ -942,7 +982,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>646c1217-2e72-4acd-b446-36d4ac70dfca</tstamps>
     </comp>
-    <comp ref="R12">
+    <comp ref="R14">
       <value>47k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2308241947_FOJAN-FRC0603J473-TS_C2907173.pdf</datasheet>
@@ -962,7 +1002,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7466468c-d5c3-4ccc-ade7-83f288a76db1</tstamps>
     </comp>
-    <comp ref="R13">
+    <comp ref="R15">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
@@ -1002,47 +1042,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e33e3e94-000b-4cae-935e-351a533c0dbb</tstamps>
     </comp>
-    <comp ref="U3">
-      <value>LM2596S-5</value>
-      <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/lm2596.pdf</datasheet>
-      <fields>
-        <field name="LCSC_Part_Number">C5157156</field>
-        <field name="Manufacturer_Name">HANSCHIP semiconductor</field>
-        <field name="Manufacturer_Part_Number">LM2596S-5.0RG</field>
-      </fields>
-      <libsource lib="Regulator_Switching" part="LM2596S-5" description="5V 3A Step-Down Voltage Regulator, TO-263"/>
-      <property name="Manufacturer_Part_Number" value="LM2596S-5.0RG"/>
-      <property name="Manufacturer_Name" value="HANSCHIP semiconductor"/>
-      <property name="LCSC_Part_Number" value="C5157156"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
-      <property name="ki_description" value="5V 3A Step-Down Voltage Regulator, TO-263"/>
-      <property name="ki_keywords" value="Step-Down Voltage Regulator 5V 3A"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>12c89277-0f32-4e1c-908e-24622e873dfd</tstamps>
-    </comp>
-    <comp ref="U4">
-      <value>XL4015</value>
-      <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
-      <datasheet>http://www.xlsemi.net/datasheet/XL4015%20datasheet-English.pdf</datasheet>
-      <fields>
-        <field name="LCSC_Part_Number">C51661</field>
-        <field name="Manufacturer_Name">XLSEMI</field>
-        <field name="Manufacturer_Part_Number">XL4015E1</field>
-      </fields>
-      <libsource lib="Regulator_Switching" part="XL4015" description="5A 180kHz 36V Buck DC to DC Converter"/>
-      <property name="Manufacturer_Part_Number" value="XL4015E1"/>
-      <property name="Manufacturer_Name" value="XLSEMI"/>
-      <property name="LCSC_Part_Number" value="C51661"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
-      <property name="ki_description" value="5A 180kHz 36V Buck DC to DC Converter"/>
-      <property name="ki_keywords" value="Buck DC-DC"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>80627256-c332-4c5e-ba04-8161a9c00326</tstamps>
-    </comp>
-    <comp ref="U5">
+    <comp ref="U2">
       <value>SC0915</value>
       <footprint>footprint_library:RPi_Pico_SMD_TH_REMOVED_SWD_PINS</footprint>
       <fields>
@@ -1083,6 +1083,46 @@ Raspberry Pi Pico Embedded Dev Module | Raspberry Pi SC0915
       <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>72a37da0-df67-4c32-9f5f-8798120c00e7</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>LM2596S-5</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2596.pdf</datasheet>
+      <fields>
+        <field name="LCSC_Part_Number">C5157156</field>
+        <field name="Manufacturer_Name">HANSCHIP semiconductor</field>
+        <field name="Manufacturer_Part_Number">LM2596S-5.0RG</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="LM2596S-5" description="5V 3A Step-Down Voltage Regulator, TO-263"/>
+      <property name="Manufacturer_Part_Number" value="LM2596S-5.0RG"/>
+      <property name="Manufacturer_Name" value="HANSCHIP semiconductor"/>
+      <property name="LCSC_Part_Number" value="C5157156"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
+      <property name="ki_description" value="5V 3A Step-Down Voltage Regulator, TO-263"/>
+      <property name="ki_keywords" value="Step-Down Voltage Regulator 5V 3A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12c89277-0f32-4e1c-908e-24622e873dfd</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>XL4015</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
+      <datasheet>http://www.xlsemi.net/datasheet/XL4015%20datasheet-English.pdf</datasheet>
+      <fields>
+        <field name="LCSC_Part_Number">C51661</field>
+        <field name="Manufacturer_Name">XLSEMI</field>
+        <field name="Manufacturer_Part_Number">XL4015E1</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="XL4015" description="5A 180kHz 36V Buck DC to DC Converter"/>
+      <property name="Manufacturer_Part_Number" value="XL4015E1"/>
+      <property name="Manufacturer_Name" value="XLSEMI"/>
+      <property name="LCSC_Part_Number" value="C51661"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Powerlabstech_Stool.kicad_sch"/>
+      <property name="ki_description" value="5A 180kHz 36V Buck DC to DC Converter"/>
+      <property name="ki_keywords" value="Buck DC-DC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80627256-c332-4c5e-ba04-8161a9c00326</tstamps>
     </comp>
   </components>
   <libparts>
@@ -1495,7 +1535,7 @@ Raspberry Pi Pico Embedded Dev Module | Raspberry Pi SC0915
   <nets>
     <net code="1" name="+3.3V">
       <node ref="R2" pin="1" pintype="passive"/>
-      <node ref="U5" pin="36" pinfunction="3V3_OUT" pintype="power_in"/>
+      <node ref="U2" pin="36" pinfunction="3V3_OUT" pintype="power_in"/>
     </net>
     <net code="2" name="+5V">
       <node ref="C3" pin="1" pintype="passive"/>
@@ -1506,8 +1546,8 @@ Raspberry Pi Pico Embedded Dev Module | Raspberry Pi SC0915
       <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="K1" pin="5" pintype="passive"/>
       <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="39" pinfunction="VSYS" pintype="power_in"/>
       <node ref="U3" pin="4" pinfunction="FB" pintype="input"/>
-      <node ref="U5" pin="39" pinfunction="VSYS" pintype="power_in"/>
     </net>
     <net code="3" name="/BATT_OUT+">
       <node ref="C8" pin="1" pintype="passive"/>
@@ -1521,37 +1561,37 @@ Raspberry Pi Pico Embedded Dev Module | Raspberry Pi SC0915
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="Q5" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
       <node ref="U3" pin="1" pinfunction="VIN" pintype="power_in"/>
     </net>
     <net code="5" name="/BATT_READ">
-      <node ref="C13" pin="1" pintype="passive"/>
-      <node ref="R12" pin="2" pintype="passive"/>
-      <node ref="R13" pin="1" pintype="passive"/>
-      <node ref="U5" pin="7" pinfunction="GP5" pintype="bidirectional"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="GP5" pintype="bidirectional"/>
     </net>
     <net code="6" name="/FB_1">
-      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
       <node ref="R9" pin="2" pintype="passive"/>
       <node ref="U4" pin="2" pinfunction="FB" pintype="input"/>
     </net>
     <net code="7" name="/GSM_RESET">
       <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="U5" pin="5" pinfunction="GP3" pintype="bidirectional"/>
+      <node ref="U2" pin="5" pinfunction="GP3" pintype="bidirectional"/>
     </net>
     <net code="8" name="/GSM_RXD">
       <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="U5" pin="4" pinfunction="GP2" pintype="bidirectional"/>
+      <node ref="U2" pin="4" pinfunction="GP2" pintype="bidirectional"/>
     </net>
     <net code="9" name="/GSM_TXD">
       <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="U5" pin="2" pinfunction="GP1" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="GP1" pintype="bidirectional"/>
     </net>
     <net code="10" name="/LED_BLUE">
       <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R7" pin="1" pintype="passive"/>
-      <node ref="U5" pin="31" pinfunction="GP26" pintype="bidirectional"/>
+      <node ref="U2" pin="31" pinfunction="GP26" pintype="bidirectional"/>
     </net>
     <net code="11" name="/LED_BLUE_OUT">
       <node ref="D3" pin="4" pinfunction="BK" pintype="passive"/>
@@ -1560,7 +1600,7 @@ Raspberry Pi Pico Embedded Dev Module | Raspberry Pi SC0915
     <net code="12" name="/LED_GREEN">
       <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R6" pin="1" pintype="passive"/>
-      <node ref="U5" pin="32" pinfunction="GP27" pintype="bidirectional"/>
+      <node ref="U2" pin="32" pinfunction="GP27" pintype="bidirectional"/>
     </net>
     <net code="13" name="/LED_GREEN_OUT">
       <node ref="D3" pin="3" pinfunction="GK" pintype="passive"/>
@@ -1569,7 +1609,7 @@ Raspberry Pi Pico Embedded Dev Module | Raspberry Pi SC0915
     <net code="14" name="/LED_RED">
       <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R5" pin="1" pintype="passive"/>
-      <node ref="U5" pin="34" pinfunction="GP28" pintype="bidirectional"/>
+      <node ref="U2" pin="34" pinfunction="GP28" pintype="bidirectional"/>
     </net>
     <net code="15" name="/LED_RED_OUT">
       <node ref="D3" pin="2" pinfunction="RK" pintype="passive"/>
@@ -1586,19 +1626,19 @@ Raspberry Pi Pico Embedded Dev Module | Raspberry Pi SC0915
     </net>
     <net code="18" name="/LOAD_SWITCH">
       <node ref="Q6" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R10" pin="1" pintype="passive"/>
-      <node ref="U5" pin="6" pinfunction="GP4" pintype="bidirectional"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="GP4" pintype="bidirectional"/>
     </net>
     <net code="19" name="/MAINS_RELAY">
       <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R4" pin="1" pintype="passive"/>
-      <node ref="U5" pin="29" pinfunction="GP22" pintype="bidirectional"/>
+      <node ref="U2" pin="29" pinfunction="GP22" pintype="bidirectional"/>
     </net>
     <net code="20" name="/MAINS_SENSE">
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="U1" pin="4" pintype="passive"/>
-      <node ref="U5" pin="9" pinfunction="GP6" pintype="bidirectional"/>
+      <node ref="U2" pin="9" pinfunction="GP6" pintype="bidirectional"/>
     </net>
     <net code="21" name="/NEUTRAL">
       <node ref="C1" pin="2" pintype="passive"/>
@@ -1625,11 +1665,13 @@ Raspberry Pi Pico Embedded Dev Module | Raspberry Pi SC0915
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="C12" pin="1" pintype="passive"/>
-      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
       <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J6" pin="A9" pinfunction="VBUS" pintype="passive"/>
       <node ref="J6" pin="B9" pinfunction="VBUS" pintype="passive"/>
       <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
     </net>
     <net code="26" name="GND">
@@ -1660,123 +1702,121 @@ Raspberry Pi Pico Embedded Dev Module | Raspberry Pi SC0915
       <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="Q6" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="R10" pin="2" pintype="passive"/>
-      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
       <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="U1" pin="3" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="18" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="23" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="28" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="33" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U2" pin="38" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="GND" pintype="power_in"/>
       <node ref="U3" pin="3" pinfunction="GND" pintype="power_in"/>
       <node ref="U3" pin="5" pinfunction="~{ON}/OFF" pintype="input"/>
       <node ref="U4" pin="1" pinfunction="GND" pintype="power_in"/>
       <node ref="U4" pin="4" pinfunction="VC" pintype="input"/>
-      <node ref="U5" pin="13" pinfunction="GND" pintype="power_in"/>
-      <node ref="U5" pin="18" pinfunction="GND" pintype="power_in"/>
-      <node ref="U5" pin="23" pinfunction="GND" pintype="power_in"/>
-      <node ref="U5" pin="28" pinfunction="GND" pintype="power_in"/>
-      <node ref="U5" pin="3" pinfunction="GND" pintype="power_in"/>
-      <node ref="U5" pin="33" pinfunction="AGND" pintype="power_in"/>
     </net>
     <net code="27" name="Net-(D2-A)">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="K1" pin="2" pintype="passive"/>
       <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="28" name="Net-(Q5-G)">
+    <net code="28" name="Net-(J6-CC1)">
+      <node ref="J6" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(J6-CC2)">
+      <node ref="J6" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(Q5-G)">
       <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
       <node ref="Q6" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
     </net>
-    <net code="29" name="Net-(R1-Pad2)">
+    <net code="31" name="Net-(R1-Pad2)">
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
     </net>
-    <net code="30" name="Net-(R3-Pad2)">
+    <net code="32" name="Net-(R3-Pad2)">
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U1" pin="1" pintype="passive"/>
-    </net>
-    <net code="31" name="unconnected-(J6-CC1-PadA5)">
-      <node ref="J6" pin="A5" pinfunction="CC1" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="32" name="unconnected-(J6-CC2-PadB5)">
-      <node ref="J6" pin="B5" pinfunction="CC2" pintype="bidirectional+no_connect"/>
     </net>
     <net code="33" name="unconnected-(K1-Pad3)">
       <node ref="K1" pin="3" pintype="passive+no_connect"/>
     </net>
-    <net code="34" name="unconnected-(U5-3V3_EN-Pad37)">
-      <node ref="U5" pin="37" pinfunction="3V3_EN" pintype="input+no_connect"/>
+    <net code="34" name="unconnected-(U2-3V3_EN-Pad37)">
+      <node ref="U2" pin="37" pinfunction="3V3_EN" pintype="input+no_connect"/>
     </net>
-    <net code="35" name="unconnected-(U5-ADC_VREF-Pad35)">
-      <node ref="U5" pin="35" pinfunction="ADC_VREF" pintype="power_in+no_connect"/>
+    <net code="35" name="unconnected-(U2-ADC_VREF-Pad35)">
+      <node ref="U2" pin="35" pinfunction="ADC_VREF" pintype="power_in+no_connect"/>
     </net>
-    <net code="36" name="unconnected-(U5-GND-Pad8)">
-      <node ref="U5" pin="8" pinfunction="GND" pintype="power_in"/>
+    <net code="36" name="unconnected-(U2-GP0-Pad1)">
+      <node ref="U2" pin="1" pinfunction="GP0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="37" name="unconnected-(U5-GND-Pad38)">
-      <node ref="U5" pin="38" pinfunction="GND" pintype="power_in"/>
+    <net code="37" name="unconnected-(U2-GP7-Pad10)">
+      <node ref="U2" pin="10" pinfunction="GP7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="38" name="unconnected-(U5-GP0-Pad1)">
-      <node ref="U5" pin="1" pinfunction="GP0" pintype="bidirectional+no_connect"/>
+    <net code="38" name="unconnected-(U2-GP8-Pad11)">
+      <node ref="U2" pin="11" pinfunction="GP8" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="39" name="unconnected-(U5-GP7-Pad10)">
-      <node ref="U5" pin="10" pinfunction="GP7" pintype="bidirectional+no_connect"/>
+    <net code="39" name="unconnected-(U2-GP9-Pad12)">
+      <node ref="U2" pin="12" pinfunction="GP9" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="40" name="unconnected-(U5-GP8-Pad11)">
-      <node ref="U5" pin="11" pinfunction="GP8" pintype="bidirectional+no_connect"/>
+    <net code="40" name="unconnected-(U2-GP10-Pad14)">
+      <node ref="U2" pin="14" pinfunction="GP10" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="41" name="unconnected-(U5-GP9-Pad12)">
-      <node ref="U5" pin="12" pinfunction="GP9" pintype="bidirectional+no_connect"/>
+    <net code="41" name="unconnected-(U2-GP11-Pad15)">
+      <node ref="U2" pin="15" pinfunction="GP11" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="42" name="unconnected-(U5-GP10-Pad14)">
-      <node ref="U5" pin="14" pinfunction="GP10" pintype="bidirectional+no_connect"/>
+    <net code="42" name="unconnected-(U2-GP12-Pad16)">
+      <node ref="U2" pin="16" pinfunction="GP12" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="43" name="unconnected-(U5-GP11-Pad15)">
-      <node ref="U5" pin="15" pinfunction="GP11" pintype="bidirectional+no_connect"/>
+    <net code="43" name="unconnected-(U2-GP13-Pad17)">
+      <node ref="U2" pin="17" pinfunction="GP13" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="44" name="unconnected-(U5-GP12-Pad16)">
-      <node ref="U5" pin="16" pinfunction="GP12" pintype="bidirectional+no_connect"/>
+    <net code="44" name="unconnected-(U2-GP14-Pad19)">
+      <node ref="U2" pin="19" pinfunction="GP14" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="45" name="unconnected-(U5-GP13-Pad17)">
-      <node ref="U5" pin="17" pinfunction="GP13" pintype="bidirectional+no_connect"/>
+    <net code="45" name="unconnected-(U2-GP15-Pad20)">
+      <node ref="U2" pin="20" pinfunction="GP15" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="46" name="unconnected-(U5-GP14-Pad19)">
-      <node ref="U5" pin="19" pinfunction="GP14" pintype="bidirectional+no_connect"/>
+    <net code="46" name="unconnected-(U2-GP16-Pad21)">
+      <node ref="U2" pin="21" pinfunction="GP16" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="47" name="unconnected-(U5-GP15-Pad20)">
-      <node ref="U5" pin="20" pinfunction="GP15" pintype="bidirectional+no_connect"/>
+    <net code="47" name="unconnected-(U2-GP17-Pad22)">
+      <node ref="U2" pin="22" pinfunction="GP17" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="48" name="unconnected-(U5-GP16-Pad21)">
-      <node ref="U5" pin="21" pinfunction="GP16" pintype="bidirectional+no_connect"/>
+    <net code="48" name="unconnected-(U2-GP18-Pad24)">
+      <node ref="U2" pin="24" pinfunction="GP18" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="49" name="unconnected-(U5-GP17-Pad22)">
-      <node ref="U5" pin="22" pinfunction="GP17" pintype="bidirectional+no_connect"/>
+    <net code="49" name="unconnected-(U2-GP19-Pad25)">
+      <node ref="U2" pin="25" pinfunction="GP19" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="50" name="unconnected-(U5-GP18-Pad24)">
-      <node ref="U5" pin="24" pinfunction="GP18" pintype="bidirectional+no_connect"/>
+    <net code="50" name="unconnected-(U2-GP20-Pad26)">
+      <node ref="U2" pin="26" pinfunction="GP20" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="51" name="unconnected-(U5-GP19-Pad25)">
-      <node ref="U5" pin="25" pinfunction="GP19" pintype="bidirectional+no_connect"/>
+    <net code="51" name="unconnected-(U2-GP21-Pad27)">
+      <node ref="U2" pin="27" pinfunction="GP21" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="52" name="unconnected-(U5-GP20-Pad26)">
-      <node ref="U5" pin="26" pinfunction="GP20" pintype="bidirectional+no_connect"/>
+    <net code="52" name="unconnected-(U2-SWCLK-PadD1)">
+      <node ref="U2" pin="D1" pinfunction="SWCLK" pintype="input+no_connect"/>
     </net>
-    <net code="53" name="unconnected-(U5-GP21-Pad27)">
-      <node ref="U5" pin="27" pinfunction="GP21" pintype="bidirectional+no_connect"/>
+    <net code="53" name="unconnected-(U2-SWDIO-PadD3)">
+      <node ref="U2" pin="D3" pinfunction="SWDIO" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="54" name="unconnected-(U5-SWCLK-PadD1)">
-      <node ref="U5" pin="D1" pinfunction="SWCLK" pintype="input+no_connect"/>
+    <net code="54" name="unconnected-(U2-VBUS-Pad40)">
+      <node ref="U2" pin="40" pinfunction="VBUS" pintype="power_in+no_connect"/>
     </net>
-    <net code="55" name="unconnected-(U5-SWDIO-PadD3)">
-      <node ref="U5" pin="D3" pinfunction="SWDIO" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="56" name="unconnected-(U5-VBUS-Pad40)">
-      <node ref="U5" pin="40" pinfunction="VBUS" pintype="power_in+no_connect"/>
-    </net>
-    <net code="57" name="unconnected-(U5-~{RUN}-Pad30)">
-      <node ref="U5" pin="30" pinfunction="~{RUN}" pintype="input+no_connect"/>
+    <net code="55" name="unconnected-(U2-~{RUN}-Pad30)">
+      <node ref="U2" pin="30" pinfunction="~{RUN}" pintype="input+no_connect"/>
     </net>
   </nets>
 </export>
